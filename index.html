@@ -19,6 +19,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- wrapper -->
@@ -26,12 +29,12 @@
       <!-- ========== Header section start ========== -->
 
       <header class="header-section">
-        <div class="header-logo">
+        <div class="header-logo" data-aos="fade-down">
           <img src="img/header-img.png" alt="image" />
         </div>
 
-        <h1>Gazini Bosing</h1>
-        <p>Namangan & Avtomobil sotuvi</p>
+        <h1 data-aos="fade-down">Gazini Bosing</h1>
+        <p data-aos="fade-down">Namangan & Avtomobil sotuvi</p>
       </header>
 
       <!-- ========== Header section end ========== -->
@@ -41,12 +44,12 @@
 
         <section class="hero-section">
           <div class="hero-title">
-            <h1>Havolalar:</h1>
-            <a href="https://www.instagram.com/gazini_bosing/">Mashinalar</a>
+            <h1 data-aos="fade-right">Havolalar:</h1>
+            <a href="https://www.instagram.com/gazini_bosing/" data-aos="fade-left">Mashinalar</a>
           </div>
 
           <div class="hero-cards">
-            <div class="card">
+            <div class="card" data-aos="fade-up">
               <div class="card-info">
                 <i class="fa-brands fa-telegram"></i>
                 <a
@@ -54,10 +57,15 @@
                   >Telegram orqali bog'lanish</a
                 >
               </div>
-              <a href="https://l.instagram.com/?u=https%3A%2F%2Ft.me%2F%2BltVpsygd0TxmMjQ6%3Ffbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnDg9Dd_iaUGsua4D-rKYqkEdA4XTDJ1KE0NyC-Dkc-6GrsBvd-j69aL_Twzc_aem_XuaDv0xjdJowkFUyAfHG6Q&e=AT3_Z12EBNybV7rM2SzZ_t8jWbAbV9ZUK2KKSSaLxKnASg92gd3IwW-TTt6oIR77ArLV1-mbKcdfpzgjpEOWNzNUwMahagG6mStwrnVVcg" id="see-btn"> <i class="fa-solid fa-share-nodes"></i> </a>
+              <a
+                href="https://l.instagram.com/?u=https%3A%2F%2Ft.me%2F%2BltVpsygd0TxmMjQ6%3Ffbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnDg9Dd_iaUGsua4D-rKYqkEdA4XTDJ1KE0NyC-Dkc-6GrsBvd-j69aL_Twzc_aem_XuaDv0xjdJowkFUyAfHG6Q&e=AT3_Z12EBNybV7rM2SzZ_t8jWbAbV9ZUK2KKSSaLxKnASg92gd3IwW-TTt6oIR77ArLV1-mbKcdfpzgjpEOWNzNUwMahagG6mStwrnVVcg"
+                id="see-btn"
+              >
+                <i class="fa-solid fa-share-nodes"></i>
+              </a>
             </div>
 
-            <div class="card">
+            <div class="card" data-aos="fade-up">
               <div class="card-info">
                 <i class="fa-brands fa-instagram"></i>
                 <a href="https://www.instagram.com/gazini_bosing/">Instagram orqali bog'lanish</a>
@@ -65,12 +73,12 @@
               <a href="https://www.instagram.com/gazini_bosing/" id="see-btn"> <i class="fa-solid fa-share-nodes"></i> </a>
             </div>
 
-            <div class="card">
+            <div class="card" data-aos="fade-up">
               <div class="card-info"><i class="fa-solid fa-phone-volume"></i> <a href="tel:+998940881273">Telefon raqam 1</a></div>
               <a href="tel:+998940881273" id="see-btn"> <i class="fa-solid fa-share-nodes"></i> </a>
             </div>
 
-            <div class="card">
+            <div class="card" data-aos="fade-up">
               <div class="card-info"><i class="fa-solid fa-phone-volume"></i> <a href="tel:+998940881273">Telefon raqam 2</a></div>
               <a href="tel:+998940881273" id="see-btn"> <i class="fa-solid fa-share-nodes"></i> </a>
             </div>
@@ -80,5 +88,11 @@
         <!-- ========== Hero section end ========== -->
       </main>
     </div>
+
+    <!-- aos animation js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
