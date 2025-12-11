@@ -153,6 +153,13 @@ body {
 /* MEDIA */
 
 @media (max-width: 440px) {
+    .wrapper {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+  }
+
+  
   .header-section h1 {
     font-size: 1.8rem;
   }
