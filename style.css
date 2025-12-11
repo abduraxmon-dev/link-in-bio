@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.wrapper {
+  max-width: 640px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* -- ========== Header section start ========== */
+
+.header-section {
+  width: 100%;
+  height: auto;
+  background-color: red;
+  text-align: center;
+  padding-bottom: 6rem;
+  background-image: url(img/image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 5rem;
+}
+
+.header-section .header-logo img {
+  width: 10rem;
+  margin-top: 4rem;
+}
+
+.header-section h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-top: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.header-section p {
+  color: #fff;
+  opacity: 50%;
+  font-size: 1.8rem;
+}
+
+/* -- ========== Header section end ========== */
+
+/* -- ========== Hero section start ========== */
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+  background-color: #f5f5f5;
+  bottom: 2rem;
+  padding-bottom: 5rem;
+}
+
+.hero-section .hero-title {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.hero-section .hero-title h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #242126;
+}
+
+.hero-section .hero-title a {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #ffa45a;
+  text-decoration: none;
+}
+
+.hero-section .hero-cards {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.hero-section .hero-cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4rem;
+  color: #635d67;
+  border: 1px solid #00000049;
+  padding: 1rem;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+
+.hero-section .hero-cards .card:hover {
+  background-color: #e3b1881f;
+}
+
+.hero-section .hero-cards .card i {
+  font-size: 1.8rem;
+  color: #635d67;
+}
+
+.hero-section .hero-cards .card-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.hero-section .hero-cards .card-info i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  font-size: 2.5rem;
+  background-color: #495eca16;
+  border-radius: 1rem;
+}
+
+.hero-section .hero-cards .card .card-info a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #635d67;
+  font-weight: 400;
+  display: block;
+}
+
+/* -- ========== Hero section end ========== */
+
+/* =========================== */
+
+/* MEDIA */
+
+@media (max-width: 440px) {
+  .header-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .header-section p {
+    font-size: 1.4rem;
+  }
+}
