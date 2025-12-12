@@ -68,7 +68,6 @@ body {
   border-top-right-radius: 3rem;
   background-color: #f5f5f5;
   bottom: 2rem;
-  padding-bottom: 2rem;
 }
 
 .hero-section .hero-title {
@@ -104,7 +103,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 3rem;
+  margin-top: 5rem;
   color: #635d67;
   border: 1px solid #00000049;
   padding: 1rem;
@@ -154,13 +153,12 @@ body {
 /* MEDIA */
 
 @media (max-width: 440px) {
-    .wrapper {
+  .wrapper {
     width: 100%;
     height: auto;
     overflow-x: hidden;
   }
 
-  
   .header-section h1 {
     font-size: 1.8rem;
   }
